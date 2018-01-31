@@ -1,0 +1,16 @@
+{
+  "name": "TechSanRamon",
+  "version": "1.0.0",
+  "description": "An informatory website made to teach elementary students on how to code",
+  "main": "server.js",
+  "repository": "",
+  "author": "Shlok Mehrotra",
+  "dependencies": {
+    "express": "~4.16.2",
+    "socket.io": "~0.9.14",
+    "path":"~0.12.7",
+    "http":"~0.0.0",
+    "body-parser": "~1.18.2",
+    "connect": "~3.6.5"
+  }
+}
