@@ -41,5 +41,8 @@ app.post('/resources', function(req, res){
 		//res.send('hello');
 	}
 })
+app.post('*', function(req, res){
+	res.send('Beta what??', 404);
+});
 app.listen(process.env.PORT || 8080);
 console.log("Server running on port 8080!")
